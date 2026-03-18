@@ -8,6 +8,9 @@ layout = 'landing'
 
 I'm a **Computer Engineering** student at NJIT with a minor in **Data Analytics** (Class of Dec 2026). I'm passionate about the intersection of high-speed digital hardware design and low-level firmware development. HMU if you want to work on something cool 😀
 
+> [!IMPORTANT]
+> This site is in development. Things probably don't work.
+
 ---
 
 ## My Interests
