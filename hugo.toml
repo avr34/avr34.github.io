@@ -1,0 +1,13 @@
+# Optional stuffs
+enableGitInfo = true
+
+baseURL = 'https://avr34.github.io/'
+languageCode = 'en-us'
+title = 'Arnavs Website'
+theme = 'hugo-book'
+
+[params]
+	subtitle = 'Test subtitle'
+	[params.contact]
+		email = 'bumpyturtle127@gmail.com'
+		phone = '+1 973-960-5971'
