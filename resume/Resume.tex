@@ -1,0 +1,143 @@
+\documentclass{article}
+\usepackage[letterpaper, total={7.5in, 10in}]{geometry}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+% Formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\Large
+}{}{0em}{}[\vspace{-12pt}\centering\rule{7.5in}{0.4pt}\vspace{-12pt}]
+
+\pagenumbering{gobble}
+
+% Custom Commands
+\newcommand{\underlinedLink}[2]{
+    {\underline{\large \href{#1}{#2}}}
+}
+
+\newcommand{\itemInTable}[1]{
+    \begin{itemize}
+        \list{#1}
+    \end{itemize}
+}
+
+\newcommand{\tabitem}[2]{
+    \begin{tabular}{lp{#1}}
+        \textbullet & #2
+    \end{tabular} \vspace{0pt}
+}
+
+\begin{document}
+
+% Title section
+\begin{spacing}{1.4}
+    \begin{center}
+        {\bf\Huge Arnav Revankar} \\
+        {\large Junior Computer Engineer @ NJIT} \\
+        \underlinedLink{https://github.com/avr34}{github.com/avr34} $|$ \underlinedLink{mailto:avr33@njit.edu}{avr33@njit.edu} $|$ \underlinedLink{https://linkedin.com/in/avr33}{linkedin.com/in/avr33}
+    \end{center}
+\end{spacing}
+\vspace{-9pt}
+
+% --------------------------SUMMARY--------------------------
+\section{Summary}
+    \begin{center}
+        \begin{tabular}{p{0.96\textwidth}}
+            Highly motivated Computer Engineering student with a strong passion for Embedded Systems, Data Science and Machine Learning. Seeking an internship/coop opportunity to apply my skills and gain experience with real world engineering. Proficient in C, C++, Java, and Python, circuit design/simulation with KiCAD, as well as popular linear algebra and machine learning frameworks like NumPy, PyTorch, and Scikit Learn. Eager to contribute to innovative projects and gain hands-on experience in real world engineering. \\
+        \end{tabular}
+    \end{center}
+
+\section{Education}
+    \vspace{-5pt}\begin{center}
+        \begin{tabular}{p{0.99\textwidth}}
+            {\large \bf New Jersey Institute of Technology} (Sept 2023 - Present) \hfill Cumulative GPA: 3.65 \\
+            BS Computer Engineering, Minor in Data Analytics \hfill Newark, NJ
+        \end{tabular}
+    \end{center}
+    \vspace{-10pt}\begin{itemize}
+        \item {\bf Coursework:} Circuits and Systems 1 \& 2, Microprocessors, Computer Architecture, Database System Design, Digital Design, and others.
+        \item {\bf Activities:} NJIT Solar Car Club (Software/Electronics Team)
+    \end{itemize}
+
+    \vspace{-15pt}\begin{center}
+        \begin{tabular}{p{0.99\textwidth}}
+            {\large \bf County College of Morris} (Sept 2022 - May 2023) \hfill Cumulative GPA: 3.83 \\
+            Challenger Program for High School Students \hfill Randolph, NJ
+        \end{tabular}
+    \end{center}
+    \vspace{-10pt}\begin{itemize}
+        \item Completed over two semesters as a part-time student.
+    \end{itemize}
+
+\section{Experience} \vspace{4pt}
+    \raggedright\begin{tabular}{lr}
+        \parbox[l]{3.65in}{\bf{\large{SWE Intern}}} &
+        \parbox[r]{3.65in}{\raggedleft March 2025 - August 2025} \\
+        \parbox[l]{3.65in}{\href{https://www.mathnasium.com/math-centers/chatham}{\underline{Mathnasium}}} &
+        \parbox[r]{3.65in}{\raggedleft Chatham, NJ}
+    \end{tabular}
+    \vspace{-10pt}\begin{itemize} 
+        \setlength{\itemsep}{-2pt}
+        \item Spearheaded a project developing a full-stack Javascript/Node.js application that generates emails for parents of students at a Math Tutoring Center I work for.
+        \item Effectively employs a BNF Grammar, that is used to generate syntactically valid text from a set of customizable templates.
+        \item Was working on a Node.js backend that'll retrieve student information, further reducing required user input.
+        \item Currently being used to send 110-150 emails per day, saving 5 centers 30-40 hours a week.
+    \end{itemize}
+    
+    \raggedright\begin{tabular}{lr}
+        \parbox[l]{3.65in}{\bf{\large{Undergraduate Research Assistant}}} &
+        \parbox[r]{3.65in}{\raggedleft October 2025 - Present} \\
+        \parbox[l]{3.65in}{Assisting \underline{\href{https://tao-han-njit.netlify.app/}{Prof. Tao Han}}} &
+        \parbox[r]{3.65in}{\raggedleft Newark, NJ}
+    \end{tabular}
+    \vspace{-10pt}\begin{itemize} 
+        \setlength{\itemsep}{-2pt}
+        \item Assisting in the development of a Microsoft Hololens application, for CV-based object detection.
+    \end{itemize}
+
+\section{Skills} \vspace{4pt}
+    \begin{itemize}
+        \setlength{\itemsep}{-2pt}
+        \item {\bf Languages:} C, C++, Java, Javascript, Python, SQL (MySQL), MATLAB, GNU Octave, HDL, \LaTeX
+        \item {\bf Software Tools:} Linux/Unix, KiCAD, FreeCAD, PlatformIO, Excel, Git
+        \item {\bf Build Tools/Debuggers:} Apache Maven, Apache Ant, CMake, Make, MSVC \& GCC, GDB, Valgrind
+	\item {\bf Libraries:} NumPy, PyTorch, Scikit Learn, Matplotlib, Gnuplot, LWJGL (GLFW)
+    \end{itemize}
+
+\section{Projects}
+    \raggedright\begin{tabular}{lr}
+        \parbox[l]{3.65in}{\bf{\large{Sound Based Triangulation}}} &
+        \parbox[r]{3.65in}{\raggedleft July 2025 - Present} \\
+    \end{tabular}
+    \begin{itemize} \vspace{-5pt}
+        \setlength{\itemsep}{-2pt}
+        \item Currently working on a short distance sound based triangulation system.
+        \item Designed a custom PCB using KiCAD to amplify, filter, and sample incoming signals.
+        \item Signal Processing will be performed on an ESP32 S3 MCU.
+    \end{itemize}
+
+    \raggedright\begin{tabular}{lr}
+        \parbox[l]{3.65in}{{\bf{\large{NeuralNet}}} \href{https://github.com/avr34/NeuralNet}{(\underline{Github})}} &
+        \parbox[r]{3.65in}{\raggedleft Oct 2024 - Feb 2025} \\
+    \end{tabular}
+    \begin{itemize} \vspace{-5pt}
+        \setlength{\itemsep}{-2pt}
+        \item Fully-Connected Neural Network Library for Regression and Classification in C.
+        \item A pet project to learn Machine Learning algorithms (minimal external libraries used).
+        \item Backpropagation using Stochastic Gradient Descent in Matrix form.
+    \end{itemize}
+
+    % \raggedright\begin{tabular}{lr}
+    %     \parbox[l]{3.65in}{\bf{\large{Collision Avoidance System for Cars}}} &
+    %     \parbox[r]{3.65in}{\raggedleft Sept 2023 - Jan 2024} \\
+    % \end{tabular}
+    % \begin{itemize} \vspace{-5pt}
+    %     \setlength{\itemsep}{-2pt}
+    %     \item Accelerometer based system that detects hard braking and alerts surrounding drivers accordingly using hazard lights.
+    %     \item Utilized an Arduino Nano Microcontroller board to handle IO.
+    %     \item Presented in NJIT's First Year Design showcase.
+    % \end{itemize}
+
+\end{document}

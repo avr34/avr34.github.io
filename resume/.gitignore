@@ -1,0 +1,11 @@
+# Vim Unnecessary Files
+*~
+*.swp
+*.swo
+
+# Latex Unnecessary Files
+*.log
+*.aux
+*.toc
+*.out
+*.synctex.gz
