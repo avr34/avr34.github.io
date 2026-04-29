@@ -52,13 +52,14 @@ The project boasts *completely custom* hardware and firmware:
 
 {{% /tab %}}
 
-{{% tab "MCU-based Oscilloscope" %}}
-### Low Speed Digital Storage Oscilloscope (DSO)
+{{% tab "MCU-based Logic Analyzer" %}}
+### Low Speed 8-Channel Digital Logic Analyzer
 
-Group project for a Masters Embedded Systems course. We're building a STM32F4 centered, low speed DSO. Hopes are that it'll have:
+Group project for a Masters Embedded Systems course. We're building a STM32F446 centered, low speed Logic Analyzer. It features:
 
-- **DSP Capabilities:** FFTs, signal filtering, RMS calculations, etc.
-- **Storage Capabilities:** Capacity to log transient signals into CSV/other format, and store on USB.
+- **High Speed Signal Capture:** Captures 8 channels at 1MHz, via a DMA loop on the STM32. Then bit-packed and sent along a USB 2.0 connection.
+- **Signal Decoding Capabilities:** Go-based signal decoder, capable of decoding UART, SPI, and I2C.
+- **Custom GUI:** PyQt-based GUI, to display waveforms and decoded bytes in hex.
 {{% /tab %}}
 {{< /tabs >}}
 
