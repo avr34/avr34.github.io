@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arnav's Website on Arnavs Website</title><link>https://avr34.github.io/</link><description>Recent content in Arnav's Website on Arnavs Website</description><generator>Hugo</generator><language>en-us</language><lastBuildDate/><atom:link href="https://avr34.github.io/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arnav&#39;s Website on Arnavs Website</title>
+    <link>https://avr34.github.io/</link>
+    <description>Recent content in Arnav&#39;s Website on Arnavs Website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://avr34.github.io/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
