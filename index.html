@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
 <head>
-	<meta name="generator" content="Hugo 0.152.2">
+	<meta name="generator" content="Hugo 0.158.0">
   <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -30,18 +30,18 @@ My Interests# Hardware &amp; Firmware# Focusing on honing my high-speed digital 
 This site is in development. Things probably don’t work.
 My Interests# Hardware &amp; Firmware# Focusing on honing my high-speed digital design and firmware development skills, for embedded systems. So far, I’m familiar with:">
   <meta itemprop="datePublished" content="2026-03-18T12:03:42-04:00">
-  <meta itemprop="dateModified" content="2026-03-18T14:47:29-04:00">
-  <meta itemprop="wordCount" content="488">
+  <meta itemprop="dateModified" content="2026-06-19T19:44:56-04:00">
+  <meta itemprop="wordCount" content="131">
 
 <title>Arnav&#39;s Website | Arnavs Website</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
 <link rel="canonical" href="https://avr34.github.io/">
-<link rel="stylesheet" href="/book.min.cc2c524ed250aac81b23d1f4af87344917b325208841feca0968fe450f570575.css" integrity="sha256-zCxSTtJQqsgbI9H0r4c0SRezJSCIQf7KCWj&#43;RQ9XBXU=" crossorigin="anonymous">
+<link rel="stylesheet" href="/book.min.6970156cec683193d93c9c4edaf0d56574e4361df2e0c1be4f697ae81c3ba55f.css" integrity="sha256-aXAVbOxoMZPZPJxO2vDVZXTkNh3y4MG&#43;T2l66Bw7pV8=" crossorigin="anonymous">
 
 
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.01e06485cbfd6fea743ffc3cf16bf807a385fbc0cd9e5c846259fd1d173a78e4.js" integrity="sha256-AeBkhcv9b&#43;p0P/w88Wv4B6OF&#43;8DNnlyEYln9HRc6eOQ=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.c73da130c83c41f3bb005805ed8ea969c58b20df2a6b5eeda7e59ba78d1f796f.js" integrity="sha256-xz2hMMg8QfO7AFgF7Y6pacWLIN8qa17tp&#43;Wbp40feW8=" crossorigin="anonymous"></script>
 
   <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
 
@@ -63,7 +63,7 @@ My Interests# Hardware &amp; Firmware# Focusing on honing my high-speed digital 
         
 <nav>
   
-<ul><li><a href="">About</a></li><li><a href="https://github.com/avr34/Resume/blob/main/Resume.pdf" target="_blank" rel="noopener">Resume</a></li></ul>
+<ul><li><a href="">About</a></li><li><a href="https://github.com/avr34/Resume/blob/main/Resume.pdf" target="_blank" rel="noopener">Resume</a></li><li><a href="/portfolio/" title="Portfolio">Portfolio</a></li></ul>
 
 
 
@@ -98,86 +98,6 @@ My Interests# Hardware &amp; Firmware# Focusing on honing my high-speed digital 
 </li>
 </ul>
 </div>
-<hr>
-<h2 id="active-projects">Active Projects<a class="anchor" href="#active-projects">#</a></h2>
-<div class="book-tabs">
-<input type="radio" class="toggle" name="tabs-1" id="tabs-1-0" checked="checked" /><label for="tabs-1-0">SolarVision Mower</label><div class="book-tabs-content markdown-inner">
-<h3 id="autonomous-lawnmower"><a href="https://github.com/SolarVisionMower/SolarVision">Autonomous Lawnmower</a><a class="anchor" href="#autonomous-lawnmower">#</a></h3>
-<p>Group Engineering Capstone project. An autonomous navigation system for lawnmower, utilizing <strong>YOLOv8 segmentation</strong>, <strong>LiDAR</strong>, and <strong>Ultra Wideband Positioning</strong> (UWB) for real-time localization and path planning.</p>
-<p>The project boasts <em>completely custom</em> hardware and firmware:</p>
-<details ><summary>Hardware</summary><div class="markdown-inner">
-<ul>
-<li>Features a custom board for the <strong>STM32N6</strong> microcontroller, with embedded Neural Processing Unit.</li>
-<li>Additionally, features a custom <strong>Main Board</strong>, hosting the STM32 as well as an ESP32S3 microcontroller, and UWB tag.</li>
-<li>Both designed with KiCAD, fabricated through JLCPCB.</li>
-</ul>
-</div></details>
-<details ><summary>Firmware</summary><div class="markdown-inner">
-<ul>
-<li>Utilizes FreeRTOS for concurrency on both, along with custom generated HAL for the STM.</li>
-<li>Custom firmware to interface the LiDAR and UWB on the ESP32.</li>
-</ul>
-</div></details>
-</div>
-
-<input type="radio" class="toggle" name="tabs-1" id="tabs-1-1"  /><label for="tabs-1-1">MCU-based Logic Analyzer</label><div class="book-tabs-content markdown-inner">
-<h3 id="low-speed-8-channel-digital-logic-analyzer">Low Speed 8-Channel Digital Logic Analyzer<a class="anchor" href="#low-speed-8-channel-digital-logic-analyzer">#</a></h3>
-<p>Group project for a Masters Embedded Systems course. We&rsquo;re building a STM32F446 centered, low speed Logic Analyzer. It features:</p>
-<ul>
-<li><strong>High Speed Signal Capture:</strong> Captures 8 channels at 1MHz, via a DMA loop on the STM32. Then bit-packed and sent along a USB 2.0 connection.</li>
-<li><strong>Signal Decoding Capabilities:</strong> Go-based signal decoder, capable of decoding UART, SPI, and I2C.</li>
-<li><strong>Custom GUI:</strong> PyQt-based GUI, to display waveforms and decoded bytes in hex.</li>
-</ul>
-</div>
-</div>
-<hr>
-<h2 id="past-projects-projects">Past Projects Projects<a class="anchor" href="#past-projects-projects">#</a></h2>
-<div class="book-tabs">
-<input type="radio" class="toggle" name="tabs-2" id="tabs-2-0" checked="checked" /><label for="tabs-2-0">BitSum</label><div class="book-tabs-content markdown-inner">
-<h3 id="bitsum-lecture-summarizer"><a href="https://github.com/avr34/ECE381-Final">BitSum Lecture Summarizer</a><a class="anchor" href="#bitsum-lecture-summarizer">#</a></h3>
-<p>A completely local, docker based AI stack which takes input of audio/video lectures, and transcribes and summarizes them. Uses OpenAI Whisper for transcription, and Microsoft BitNet for efficient CPU-based summaries.</p>
-</div>
-<input type="radio" class="toggle" name="tabs-2" id="tabs-2-1"  /><label for="tabs-2-1">NeuralNet</label><div class="book-tabs-content markdown-inner">
-<h3 id="neuralnet"><a href="https://github.com/avr34/NeuralNet">NeuralNet</a><a class="anchor" href="#neuralnet">#</a></h3>
-<p>A C library to create, train, and export feed-forward neural networks. It leverages a completely custom (non-hardware accelerated) matrix library for matrix/vector operations, as well as MSE Loss, SGD based backpropagation (using matrix derivatives), and ReLU activation.</p>
-</div>
-<input type="radio" class="toggle" name="tabs-2" id="tabs-2-2"  /><label for="tabs-2-2">SessionSummary</label><div class="book-tabs-content markdown-inner">
-<h3 id="sessionsummary-email-generator">SessionSummary Email Generator<a class="anchor" href="#sessionsummary-email-generator">#</a></h3>
-<p>Created a fully custom email generator for the Mathnasium of Chatham + 4 other centers. Utilizes Javascript and Node.js, and custom (effectively reverse-BNF grammar) email generation algorithm to generate 110-150 emails per day.</p>
-</div>
-</div>
-<hr>
-<h2 id="technical-toolkit">Technical Toolkit<a class="anchor" href="#technical-toolkit">#</a></h2>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Category</th>
-          <th style="text-align: left">Tools &amp; Languages</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left"><strong>Languages:</strong></td>
-          <td style="text-align: left">C, C++, MATLAB, Java, Python, Go, SQL (MySQL), GNU Octave, Latex, Javascript, VHDL</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>Software Tools:</strong></td>
-          <td style="text-align: left">Linux (Debian), KiCAD, FreeCAD, STM32CubeMX &amp; IDE, PlatformIO, ESP-IDF, Git, Docker, Excel</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>Build Tools/Debuggers:</strong></td>
-          <td style="text-align: left">Apache Maven, Apache Ant, CMake, Make, MSVC &amp; GCC, GDB, Valgrind</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>Libraries:</strong></td>
-          <td style="text-align: left">STM32 HAL, FreeRTOS, NumPy, PyTorch, Scikit Learn, Matplotlib, Gnuplot</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>Communication Protocols:</strong></td>
-          <td style="text-align: left">UART, I2C, SPI</td>
-      </tr>
-  </tbody>
-</table>
 <hr>
 <h2 id="connect-with-me">Connect with Me<a class="anchor" href="#connect-with-me">#</a></h2>
 <ul>

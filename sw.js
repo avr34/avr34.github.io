@@ -1,12 +1,13 @@
 const cacheName = self.location.pathname
 const pages = [
 
+  "/portfolio/",
   "/",
   "/categories/",
   "/tags/",
-  "/book.min.cc2c524ed250aac81b23d1f4af87344917b325208841feca0968fe450f570575.css",
-  "/en.search-data.min.4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.json",
-  "/en.search.min.01e06485cbfd6fea743ffc3cf16bf807a385fbc0cd9e5c846259fd1d173a78e4.js",
+  "/book.min.6970156cec683193d93c9c4edaf0d56574e4361df2e0c1be4f697ae81c3ba55f.css",
+  "/en.search-data.min.e87256d3efa71b1a97a49cd314ee61464a15be76894460e28e6b597d499411a8.json",
+  "/en.search.min.c73da130c83c41f3bb005805ed8ea969c58b20df2a6b5eeda7e59ba78d1f796f.js",
   
 ];
 
